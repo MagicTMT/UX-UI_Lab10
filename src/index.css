@@ -1,0 +1,43 @@
+:root {
+  --page-lime: #d7ff00;
+  --page-outline: #ff5738;
+  --page-ink: #141414;
+  --card-ink: #f7f4ed;
+  --card-blue-top: #234fd4;
+  --card-blue-bottom: #1b2b76;
+  --card-sunset-top: #f04400;
+  --card-sunset-bottom: #80310d;
+  --button-orange: #ff4d00;
+  --button-charcoal: #302f30;
+  --concert-blue: #1d46d4;
+  --row-divider: #919b22;
+
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  background: var(--page-lime);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100svh;
+}
+
+button,
+a {
+  font: inherit;
+}
