@@ -1,16 +1,19 @@
 :root {
   --page-lime: #d7ff00;
-  --page-outline: #ff5738;
-  --page-ink: #141414;
-  --card-ink: #f7f4ed;
-  --card-blue-top: #234fd4;
-  --card-blue-bottom: #1b2b76;
-  --card-sunset-top: #f04400;
-  --card-sunset-bottom: #80310d;
-  --button-orange: #ff4d00;
-  --button-charcoal: #302f30;
-  --concert-blue: #1d46d4;
-  --row-divider: #919b22;
+  --landing-background: rgba(217, 255, 0, 0.94);
+  --landing-ink: #000;
+  --landing-card-text: #eeeee6;
+  --landing-blue: #1843d7;
+  --landing-orange: #ff4800;
+  --landing-overlay-horizontal:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  --landing-overlay-vertical:
+    linear-gradient(180deg, rgba(30, 30, 30, 0), rgba(30, 30, 30, 0.5));
+  --concert-blue: #1843d7;
+  --concert-lime: #d9ff00;
+  --concert-ink: #2d2d2d;
+  --concert-cream: #eeeee6;
+  --font-concert: "Montserrat", Arial, sans-serif;
 
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-synthesis: none;
@@ -20,6 +23,14 @@
   font-optical-sizing: auto;
   font-weight: 400;
   background: var(--page-lime);
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./assets/concert/Montserrat-Regular.woff2") format("woff2");
 }
 
 * {
